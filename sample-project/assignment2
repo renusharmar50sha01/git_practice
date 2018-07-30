@@ -1,0 +1,24 @@
+
+git branch fb1
+git branch fb2
+
+git checkout fb1
+
+vi index.html
+:2
+o
+
+##CHANGING THE FEATUREBRANCH as FB1
+
+:wq
+
+
+git checkout fb2
+vi index.html
+
+:2
+o
+
+##CHANGING THE FEATUREBRANCH as FB2
+:wq
+
