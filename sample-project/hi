@@ -1,0 +1,160 @@
+    1  apt-get install curl
+    2  sudo rm /var/lib/dpkg/
+    3  sudo rm /var/lib/dpkg/lock
+    4  apt-get install curl
+    5  rm /var/cache/apt/archives/lock
+    6  apt-get install curl
+    7  curl -O https://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb
+    8  sudo dpkg -i puppetlabs-release-pc1-xenial.deb
+    9  sudo apt-get update
+   10  sudo apt-get install puppetserver
+   11  sudo nano /etc/default/puppetserver
+   12  sudo ufw allow 8140
+   13  sudo systemctl start puppetserver
+   14  sudo systemctl status puppetserver
+   15  sudo systemctl enable puppetserver
+   16  sudo /opt/puppetlabs/bin/puppet cert list
+   17  sudo /opt/puppetlabs/bin/puppet cert sign --all
+   18  sudo nano /etc/puppetlabs/code/environments/production/manifests/site.pp
+   19  sudo systemctl status puppetserver
+   20  cd ShareWindows/
+   21  ls
+   22  cd New\ folder\ \(3\)/
+   23  ls
+   24  cd /usr/bin/tomcat
+   25  cd /usr/bin/
+   26  ls
+   27  cd /etc/tomcat
+   28  cd /opt/tomcat
+   29  ls
+   30  cd webapps
+   31  ls
+   32  cd
+   33  cd /home/edureka/ShareWindows/
+   34  ls
+   35  cd New\ folder\ \(3\)/
+   36  ls
+   37  cp addressbook.war /opt/tomcat/webapps
+   38  systemctl enable tomcat
+   39  history
+   40  exit
+   41  ls -ltr
+   42  history | grep -i apache2
+   43  systemctl restart apache2
+   44  systemctl restart jenkins
+   45  netstat -pintu
+   46  history  
+   47  whoami
+   48  cd git_practice/
+   49  ls -ltr
+   50  vi assignment1
+   51  ls -ltr
+   52  vi assignment1
+   53  history | grep -i git
+   54  exit
+   55  ls -ltr
+   56  cd git_practice/
+   57  ls -ltr
+   58  vi assignment1 
+   59  git init
+   60  vi assignment1 
+   61  git checkout
+   62  git checkout master
+   63  git checkout featurebranch
+   64  vi assignment1 
+   65  pwd
+   66  cd sample-project/
+   67  ls -ltr
+   68  vi index.html 
+   69  vi assignment1 
+   70  vi index.html 
+   71  vi assignment1 
+   72  ifconfig
+   73  version
+   74  uname 
+   75  uname -v
+   76  history
+   77  sudo service jenkins status
+   78  sudo service apache2 status
+   79  ls -ltr
+   80  cd ..
+   81  git log --pretty=oneline 
+   82  git remote add origingit remote add origin https://github.com/manoj3004/27th_Dec_repo.git
+   83  git remote add origin https://github.com/manoj3004/27th_Dec_repo.git
+   84  git remote add origin https://github.com/renusharma/git_practice
+   85  git push -u origin master
+   86  git remote add origin https://github.com/renusharma/git_practice
+   87  git push -u origin master
+   88  git remote add origin https://github.com/renusharma/git_practice
+   89  git push -u origin master
+   90  git remote add origin https://github.com/renusharmar50sha01/aceproject.git
+   91  git push -u origin master
+   92  ls -ltr
+   93  cd ..
+   94  ls -ltr
+   95  git remote add origin https://github.com/renusharmar50sha01/git_practice
+   96  cd git_practice/
+   97  git remote add origin https://github.com/renusharmar50sha01/git_practice
+   98  git push -u origin master
+   99  clear
+  100  history
+  101  git remote add originit https://github.com/renusharmar50sha01/git_practice
+  102  git push -u origin master
+  103  exit
+  104  sudo su
+  105  whoami
+  106  cd git_practice/
+  107  git init
+  108  sudo su
+  109  git remote add originit https://github.com/renusharmar50sha01/git_practice/.git
+  110  ls -ltr
+  111  ls -ltra
+  112  cd .git
+  113  ls -ltr
+  114  git remote add originit https://github.com/renusharmar50sha01/git_practice/.git
+  115  git push -u origin master
+  116  reboot
+  117  cd git_practice/
+  118  ls -ltr
+  119  history
+  120* 
+  121  git push -u origin master
+  122  git remote add originit https://github.com/renusharmar50sha01/git_practice/.git
+  123  git push -u originit master
+  124  git branch
+  125  git checkout master
+  126  git branch
+  127  git push -u originit master
+  128  git status
+  129  pwd
+  130  ls -ltr
+  131  cd sample-project/
+  132  ls -ltr
+  133  ls -ltr a
+  134  ls -ltar
+  135  cd ..
+  136  ls -ltar
+  137  cd .git
+  138  ls -ltr
+  139  git remote add originit https://github.com/renusharmar50sha01/git_practice.git
+  140  cd ..
+  141  git remote add origin https://github.com/renusharmar50sha01/git_practice.git
+  142  git push -u origin
+  143  git push -u origin master
+  144  git remote add origin https://github.com/renusharmar50sha01/git_practice
+  145  git init
+  146  git add README.md
+  147  git commit -m "first commit"
+  148  git remote add origin https://github.com/renusharmar50sha01/git_practice.git
+  149  git remote -v
+  150  git remote set-url https://github.com/renusharmar50sha01/git_practice.git
+  151  git remote set-url --add https://github.com/renusharmar50sha01/git_practice.git
+  152  git remote set-url --add github.com:renusharmar50sha01 https://github.com/renusharmar50sha01/git_practice.git
+  153  git remote set-url --add github@github.com:renusharmar50sha01 https://github.com/renusharmar50sha01/git_practice.git
+  154  git remote set-url --add originit https://github.com/renusharmar50sha01/git_practice.git
+  155  git remote set-url --add origin https://github.com/renusharmar50sha01/git_practice.git
+  156  git push -u originit master
+  157  cd sample-project/
+  158  vi assignment1 
+  159  history
+  160  history >hi
